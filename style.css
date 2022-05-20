@@ -19,7 +19,7 @@
   width: 111px;
   height: 74px;
 }
- 
+
 .bx-menu {
   font-size: 40px;
   padding: 10px 20px;
@@ -67,7 +67,6 @@
   border: 1px solid #1a2236;
   padding: 12px 90px;
   margin-top: 10px;
-
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -84,4 +83,25 @@
   width: 500px;
   height: 260px;
   background-size: contain;
+}
+
+.project-div {
+  padding: 16px;
+}
+
+.project-div h2 {
+  font-family: "Playfair Display", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 100%;
+  color: #1a2236;
+}
+
+.img-div {
+  border: 0.333333px solid rgba(255, 255, 255, 0.1);
+}
+
+.img-div img {
+  padding-top: 32px;
 }
