@@ -14,7 +14,7 @@
       rel="stylesheet"
       href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
     />
-    <link rel="stylesheet" href="main-css\styles.css" />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header>
@@ -25,10 +25,10 @@
         </nav>
       </div>
     </header>
-     <main>
-      <section>
-        <div>
-          <h1>Kelly Besong</h1>
+    <main>
+      <section class="portfolio-wrapper">
+        <div class="portfolio-heading">
+          <h1>Kelly <br/> Besong</h1>
           <p>
             Hello! I am a software developer! I can help you build a product,
             feature or website. Take a look at my works. If you like what you
@@ -36,7 +36,7 @@
             me.
           </p>
         </div>
-        <div>
+        <div class="start-btn-div">
           <button type="button" class="start-btn">start collaboration</button>
         </div>
         <div id="main-background-img"></div>
@@ -58,7 +58,7 @@
             <li>JavaScript</li>
           </ul>
 
-          <button onclick="" class="">
+          <button type="button" class="">
             See this project <i class="bx bx-right-arrow-alt"></i>
           </button>
         </div>
@@ -74,7 +74,7 @@
             <li>JavaScript</li>
           </ul>
 
-          <button onclick="" class="">
+          <button type="button" class="">
             See this project <i class="bx bx-right-arrow-alt"></i>
           </button>
         </div>
@@ -90,7 +90,7 @@
             <li>JavaScript</li>
           </ul>
 
-          <button onclick="" class="">
+          <button type="button" class="">
             See this project <i class="bx bx-right-arrow-alt"></i>
           </button>
         </div>
@@ -106,7 +106,7 @@
             <li>JavaScript</li>
           </ul>
 
-          <button onclick="" class="">
+          <button type="button" class="">
             See this project <i class="bx bx-right-arrow-alt"></i>
           </button>
         </div>
@@ -122,7 +122,7 @@
             <li>JavaScript</li>
           </ul>
 
-          <button onclick="" class="">
+          <button type="button" class="">
             See this project <i class="bx bx-right-arrow-alt"></i>
           </button>
         </div>
@@ -138,57 +138,58 @@
             <li>JavaScript</li>
           </ul>
 
-          <button onclick="" class="">
+          <button type="button" class="">
             See this project <i class="bx bx-right-arrow-alt"></i>
           </button>
         </div>
       </section>
       <section>
-        <article>
-          <div>
-            <h4>About</h4>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ea eiusmod
-            </p>
+        <div>
+          <h4>About</h4>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ea eiusmod
+          </p>
 
-            <button onclick="">Get my CV <i class="bx bx-download"></i></button>
-          </div>
-          <div>
-            <p>Languages</p>
-            <ul>
-              <li>JavaScript (ES5/ES6)</li>
-              <li>Ruby</li>
-              <li>HTML</li>
-              <li>CSS</li>
-            </ul>
-          </div>
+          <button type="button">
+            Get my CV <i class="bx bx-download"></i>
+          </button>
+        </div>
+        <div>
+          <p>Languages</p>
+          <ul>
+            <li>JavaScript (ES5/ES6)</li>
+            <li>Ruby</li>
+            <li>HTML</li>
+            <li>CSS</li>
+          </ul>
+        </div>
 
-          <div>
-            <p>Frameworks</p>
-            <ul>
-              <li>Bootstrap</li>
-              <li>Ruby on rails</li>
-              <li>RSpec</li>
-              <li>Capibara</li>
-              <li>Selenium</li>
-            </ul>
-          </div>
+        <div>
+          <p>Frameworks</p>
+          <ul>
+            <li>Bootstrap</li>
+            <li>Ruby on rails</li>
+            <li>RSpec</li>
+            <li>Capibara</li>
+            <li>Selenium</li>
+          </ul>
+        </div>
 
-          <div>
-            <p>Skills</p>
-            <ul>
-              <li>Codekit</li>
-              <li>Codepen</li>
-              <li>GitHub</li>
-              <li>GitLAb</li>
-              <li>Terminal</li>
-            </ul>
-          </div>
-        </article>
+        <div>
+          <p>Skills</p>
+          <ul>
+            <li>Codekit</li>
+            <li>Codepen</li>
+            <li>GitHub</li>
+            <li>GitLAb</li>
+            <li>Terminal</li>
+          </ul>
+        </div>
       </section>
+
       <section>
         <div class="backgroud-top-img"></div>
 
@@ -218,7 +219,7 @@
             <label class="" for="Username"></label>
             <input
               type="email"
-              id="Username"
+              id="email"
               name="email"
               placeholder="Your email"
               required
